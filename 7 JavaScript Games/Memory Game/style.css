@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: linear-gradient(130deg, #020d36c5, #17288b, #500f0f);
+    background-size: 200% 200%;
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+    
+}
+
+h3{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+button{
+    font-size: 2em;
+    color:white;
+    background-color: black;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
